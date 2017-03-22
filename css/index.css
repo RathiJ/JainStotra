@@ -1,0 +1,161 @@
+body {
+	eight: 100%;
+	font-family: segoe ui;
+}
+h2 {
+	line-height: 50px;
+	color: #414451;
+	text-align: center;
+}
+h3{
+    color: #414451;
+    text-align: center;
+}
+
+#bodyContent{
+	display: block;
+	height: 275px;
+	border: 1px solid #9FCD99;
+}
+	
+#Content{
+	
+	text-align: center;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+}
+
+#errorText{
+	color: #202225;
+	font-family: "verdana";
+	text-align: center;
+    font-size: 1.0em;
+	outline: none;
+}
+
+#contentText{
+	color: #202225;
+	font-family: "verdana";
+	text-align: center;
+    font-size: 1.5em;
+	outline: none;
+	font-weight: bold;
+}
+
+#Navigation{
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: center;
+  display: none;
+}
+
+#Menu{
+text-align:center;
+}
+
+
+
+
+#audioStopButton{
+ width: 30px;
+ height: 30px; 
+ outline: none;
+ float: center-right;
+}
+
+#audioPauseButton{
+ width: 30px;
+ height: 30px; 
+ outline: none;
+ float: center-left;
+}
+
+#audioPlayButton{
+ width: 30px;
+ height: 30px; 
+ outline: none;
+ float: center-center;
+}
+
+#audioForwardButton{
+ width: 30px;
+ height: 30px; 
+ outline: none;
+ float: center-center;
+}
+
+#audioRewindButton{
+ width: 30px;
+ height: 30px; 
+ outline: none;
+ float: center-center;
+}
+
+#FlagToggleButton{
+ width: 30px;
+ height: 30px; 
+ outline: none;
+ float:left;
+}
+#FlagAudio{
+display:inline-block;
+}
+
+header{
+	width:100%; 
+	background: #19C8C8;
+	height:50px; 
+	align:center;
+	text-align: center;
+}
+.HamburgerMenu{
+  background:none;
+  position:absolute;
+  top:19px;
+  left:0;
+  padding:0px 15px 0px 15px;
+  color:#414451;
+  border:0;
+  font-size:2.0em;
+  font-weight:bold;
+  cursor:pointer;
+  z-index:10000000000000;
+  outline: none;
+}
+.Close{
+  background:none;
+  position:absolute;
+  top:19px;
+  left:0;
+  padding:0px 15px 0px 15px;
+  color:#414451;
+  border:0;
+  font-size:2.0em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  
+}
+
+#Menu{z-index:1000000; font-size:1.0em; width:30%; max-width: 300px; background:#19C8C8;font-color:#414451; position:absolute; text-align:center;}
+#Menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+#Menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+#Menu li:hover{display: block;    background:#17BECF; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+#Menu ul li a { text-decoration:none;  margin: 0px; color:#414451;}
+#Menu ul li a:hover {  color: green; text-decoration:none;}
+#Menu a{text-decoration:none; color:#414451;}
+#Menu a:hover{text-decoration:none; color:green;}
+
+
+
+#aud{
+align: center;
+display:inline;
+}
+#flag:hover{ 
+	cursor: pointer;
+}
+input[type=checkbox] {
+    transform:scale(2);
+}
