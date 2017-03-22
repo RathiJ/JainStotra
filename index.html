@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html  lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel='stylesheet' href='css/index.css'/>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src='js/jquery-1.11.3.min.js'></script>
+	<script src='js/index.js'></script>
+	<script type="text/javascript" src='js/jquery.touchSwipe.min.js'></script>
+	<script type="text/javascript" src='js/jquery-ui.min.js'></script>
+	<script type="text/javascript" src='js/jquery.animate-colors-min.js'></script>
+</head>
+<body>
+	<header>
+		<h2>Jain Stotra </h2>
+		<button class="HamburgerMenu">&#9776;</button>
+	  <button class="Close">&#9776;</button>  
+	</header>
+	<div id="Navigation">
+		<div id="FlagAudio">
+			<br><br>
+			&nbsp;&nbsp;&nbsp;
+			<input type="image" alt = "Rewind audio" src="img/rewind.png" id="audioRewindButton" class="audioRewind">
+			<input type="image" alt = "Pause audio" src="img/pause.png" id="audioPauseButton" class="audioPause">
+			<input type="image" alt = "Play audio" src="img/play.png" id="audioPlayButton" class="audioPlay">
+			<input type="image" alt = "Stop audio" src="img/stop.png" id="audioStopButton" class="audioStop">
+			<input type="image" alt = "Forward audio" src="img/forward.png" id="audioForwardButton" class="audioForward">
+		</div>
+		<br/> <br/>		
+	</div>
+	<div id = "Menu">
+		<ul>
+			<a id="panchamandra" href="#panchamandra"><li>Panchamandra stotra</li></a>
+			<a id="bhaktamar" href="#bhaktamar"><li>Bhaktamar stotra</li></a>			
+		</ul>
+	</div>	
+		<div id="Content">
+			<div id="errorText"></div>
+			<div id="contentText"></div>
+		</div>
+	
+	<audio id="audioTag">
+	<source src="sounds/bhakthamaram.mp3">
+	</audio>
+	<audio id="panchamandraaudio">
+	<source src="sounds/panchamathram.mp3">
+	</audio>
+</body>
+</html>
